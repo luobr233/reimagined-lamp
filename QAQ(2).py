@@ -12,11 +12,11 @@ for i in range(1,n+1):
             s[t]=1 
         print(str(i)+'.jpg finish')
         continue
-    response = requests.get('https://api.ixiaowai.cn/api/api.php')
+    response = requests.get('**************')
     cnt = cnt + 1
     num = 0
     while response.content in s: 
-        response = requests.get('https://api.ixiaowai.cn/api/api.php')
+        response = requests.get('**************')
         cnt = cnt + 1
         num = num + 1
         print("repeat * "+str(num))
